@@ -1,0 +1,80 @@
+/*++Project ToolsForEver++*/
+/*++Dwight Klerks++*/
+/**/
+
+/*++General++*/
+body {  background-color: #eee !important;}
+body:not(.sub-index) h1 { color: #fff !important; font-size: 90px !important; text-align: center;}
+body:not(.index) h1 { color: #000 !important; font-size: 90px !important; text-align: center;}
+/*+Home+*/
+/*algemeen*/
+/*body:not(.no-index) { min-height: calc(100% - 200px);}*/
+body:not(.sub-index) .content-wrapper { }
+/*header*/
+body:not(.sub-index) .header { min-height: 150px; background-color: #fff !important; padding-top: 25px;}
+body:not(.sub-index) .header .logo { background-color: #333; !important; width: 100%; height: 100px;}
+/*body*/
+body:not(.sub-index) .locationBalk { height: 400px; background-color: #fff !important;  padding-top: 50px;}
+body:not(.sub-index) .locatieItem {
+  width: 100%;
+  height: 300px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+}
+body:not(.sub-index) .locationBalk .col-md-3:nth-child(1) .locatieItem{ background-image: url("../images/Almere.jpg"); background-position: center center;}
+body:not(.sub-index) .locationBalk .col-md-3:nth-child(2) .locatieItem{ background-image: url("../images/Eindhoven.jpg"); background-position: center center;}
+body:not(.sub-index) .locationBalk .col-md-3:nth-child(3) .locatieItem{ background-image: url("../images/Rotterdam.jpg"); background-position: center center;}
+body:not(.sub-index) .video { height: 200px; width: 400px; text-align: center; margin: auto;}
+body:not(.sub-index) .info .col-md-6 { text-align: center;}
+.info .col-md-6 {
+    background-color: #fff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 50%;
+}
+.add { height: 200px; width: 400px; background: #eee;}
+.reclame { background-color: #fff; padding: 10px;}
+.reclame p,
+.reclame img { width: 200px;}
+.reclameItem { background-color: #eee; padding: 10px;  border: 1px solid #000;}
+/*.add img { width: 200px;}*/
+/*+Contact+*/
+.contactinfo { width: 600px; height: 500px; margin: auto; text-align: center; background-color: #fff !important; }
+/*+Login+*/
+/*algemeen*/
+/*header*/
+/*body*/
+body:not(.sub-index) .login-module { background-color: #fff !important; padding-bottom: 25px;  padding-top: 25px;}
+body:not(.sub-index) #h1,
+body:not(.sub-index) #login-form { text-align: center;}
+body:not(.sub-index) #login-form {
+  background-color: #fff !important;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  padding-top: 50px;
+  -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+}
+
+/*+Directie+*/
+/*algemeen*/
+/*header*/
+/*body:not(.index) .sub-header { min-height: 150px; background-color: #fff !important; padding-top: 25px;}*/
+body:not(.index) .main_nav { padding-top: 60px;}
+body:not(.index) .main_nav table { width: 100%;}
+body:not(.index) .main_nav table td { width: 33.3333%;}
+body:not(.index) .main_nav_button { background-color: #333; !important; height: 50px; text-align: center; color: #fff; border-bottom: 5px solid transparent;}
+body:not(.index) .main_nav_button:hover { border-bottom: 5px solid #fff;}
+body:not(.index) .main_nav_button.active { border-bottom: 5px solid #fff;}
+/*body*/
+/*#pageTabs {  margin-top: 100px;}*/
+
+#productTable td,
+#medewerkerTable td,
+#voorraadTable td {  max-width: calc(100vw / 10);}
+.locatieH { background-color: #eee;}
+.zoekProduct { text-align: center;}
